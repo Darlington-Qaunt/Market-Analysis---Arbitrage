@@ -4,6 +4,7 @@ Before searching for triangular arbitrage opportunities, it was important to fir
 By looking at the price movements of SOL/USDT and ETH/USDT throughout the day, I was  able to spot periods of high volatility or unusual trading activity that might create price gaps across the related pairs. The analysis included candlestick charts, trading volume spikes, and hourly returns, which gave a more detailed view of market conditions. Statistical measures such as the correlation between SOL and ETH prices were also calculated. Correlation is especially important in triangular arbitrage: when assets move very closely together, arbitrage windows are often smaller; when they move more independently, opportunities are more likely to appear.
 To make this clearer, a range of visualizations—such as price overview charts, volume distributions, and return patterns—were also produced and studied.
 
+``` python
 import time
 import requests
 import csv
